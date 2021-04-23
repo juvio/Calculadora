@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, Dimensions, TouchableHighlight, Image } from 'react-native';
+import { StyleSheet, Text, Dimensions, TouchableHighlight } from 'react-native';
 
 const styles = StyleSheet.create({
     button: {
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     },
     numberButton: {
         backgroundColor: '#FFFACD',
+        color: 'black'
     }
 })
 
