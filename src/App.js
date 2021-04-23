@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, ImageBackground, Image, Dimensions } from 'react-native';
+import { StyleSheet, View, ImageBackground, Dimensions } from 'react-native';
 import Button from './components/Button';
 import Display from './components/Display';
 
@@ -177,5 +177,7 @@ const styles = StyleSheet.create({
   imageDisplay: {
     flex: 1,
     padding: 20,
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').width
   }
 });
